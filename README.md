@@ -44,8 +44,7 @@ It had the lowest:
 
 
 
-📜 Credit
-https://filippomb.github.io/python-time-series-handbook/notebooks/05/arma_arima_sarima.html
+📜 Credit: https://filippomb.github.io/python-time-series-handbook/notebooks/05/arma_arima_sarima.html
 ---
 
 
