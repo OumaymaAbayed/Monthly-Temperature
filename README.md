@@ -11,10 +11,29 @@ Dataset Source: https://zenodo.org/records/10951538/files/arima_temp.csv
 This notebook-driven project includes:
 
 -  **Exploratory Data Analysis**
--  **Preprocessing & Stationarity Checks**
+-  **Data Preprocessing**:
+    - Converting the Month column to datetime format
+    - Setting the index to the Month and Year
 -  **Seasonal Decomposition**
+-  **Stationarity Check**
+      - Augmented Dickey-Fuller test
+- **Seasonality Check**
+      - Autocorrelation plot.
+      - Seasonal subseries plot (month plot).
+      - Fourier Transform.
 -  **Model Identification (AR & MA orders)**
--  **Model Evaluation (Normality, Autocorrelation, Heteroskedasticity)**
+-  **Model Evaluation**
+-  **Residual Analysis**
+      - **Visual inspection:**
+        1. ACF plot.
+        2. Histogram.
+        3. QQ plot.
+
+      - **Statistical tests:**
+        1. Normality.
+        2. Autocorrelation.
+        3. Heteroskedasticity.
+        
 -  **Forecasting with Confidence Intervals**
 ---
 
